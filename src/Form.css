@@ -1,0 +1,35 @@
+.container.mt-4 {
+    display: grid;
+    text-align: center;
+}
+.col-xs-12 {
+    margin-top: 28px;
+}
+
+select.form-select {
+    width: 20%;
+    padding: 5px;
+}
+.card.h-100 {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px;
+    background: aquamarine;
+    padding: 20px;
+    line-height: 38px;
+    margin: auto;
+    width: 50%;
+    max-width: 24%;
+}
+@media (max-width: 768px) {
+select.form-select {
+    width: 58%;
+}
+    .card.h-100 {
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px;
+        background: aquamarine;
+        padding: 20px;
+        line-height: 48px;
+        margin: auto;
+        width: 70%;
+        max-width: 106%;
+    }
+}
