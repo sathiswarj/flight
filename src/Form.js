@@ -261,6 +261,7 @@ const Form = () => {
   };
 
 
+
   const onSubmit = (event) => {
     event.preventDefault();
 
@@ -353,7 +354,9 @@ const Form = () => {
             <h4 className="text-center">Try another search route</h4>
           )}
         </div>
+
       </div>
+
       </div>
   );
 };
