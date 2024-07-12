@@ -9,7 +9,11 @@
 select.form-select {
     width: 20%;
     padding: 5px;
+    border: none;
+    background: #508D4E;
+    color:white;
 }
+ 
 .card.h-100 {
     box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px;
     background: aquamarine;

@@ -338,8 +338,8 @@ const Form = () => {
                     <p>{flight.partnerPrograms[0]}</p>
                       <h3 className="card-title">{flight.origin} <FaPlane className="icon" style={{fontSize:'smaller'}}/> {flight.destination}</h3>
                       <div className="card-text">
-                        <p>Arrival:{format(new Date(flight.departureTime), "MMMM dd, yyyy p")}</p>
-                        <p> {format(new Date(flight.arrivalTime), "MMMM dd, yyyy p")}</p>
+                        <p>Arrival : {format(new Date(flight.departureTime), "MMMM dd, yyyy p")}</p>
+                        <p> Departure :  {format(new Date(flight.arrivalTime), "MMMM dd, yyyy p")}</p>
                         <h3>${flight.cost.toFixed(2)}</h3>
                         <p>{flight.cabin} </p>
                         <p>{format(new Date(), "MMMM dd, yyyy p")}</p>
