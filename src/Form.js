@@ -335,14 +335,14 @@ const Form = () => {
                 <div key={index} className="col-md-12 mb-4">
                   <div className="card h-100">
                     <div className="card-body">
-                    <p>{flight.partnerPrograms[0]}</p>
+                    <p className="card-detail">{flight.partnerPrograms[0]}</p>
                       <h3 className="card-title">{flight.origin} <FaPlane className="icon" style={{fontSize:'smaller'}}/> {flight.destination}</h3>
                       <div className="card-text">
-                        <p>Arrival : {format(new Date(flight.departureTime), "MMMM dd, yyyy p")}</p>
-                        <p> Departure :  {format(new Date(flight.arrivalTime), "MMMM dd, yyyy p")}</p>
-                        <h3>${flight.cost.toFixed(2)}</h3>
-                        <p>{flight.cabin} </p>
-                        <p>{format(new Date(), "MMMM dd, yyyy p")}</p>
+                        <p className="card-detail"> Arrival :  {format(new Date(flight.arrivalTime), "MMMM dd, yyyy p")}</p>
+                        <p className="card-detail">Departure : {format(new Date(flight.departureTime), "MMMM dd, yyyy p")}</p>
+                        <h3>  ${flight.cost.toFixed(2)}</h3>
+                        <p className="card-detail">{flight.cabin} </p>
+                        <p className="card-detail">{format(new Date(), "MMMM dd, yyyy p")}</p>
                       </div>
                     </div>
                   </div>

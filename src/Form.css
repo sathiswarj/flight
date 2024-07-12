@@ -16,12 +16,15 @@ select.form-select {
  
 .card.h-100 {
     box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px;
-    background: aquamarine;
+    background: #80AF81 ;
     padding: 20px;
     line-height: 38px;
     margin: auto;
     width: 50%;
     max-width: 24%;
+}
+.card-detail{
+    font-size: 15px;
 }
 @media (max-width: 768px) {
 select.form-select {
